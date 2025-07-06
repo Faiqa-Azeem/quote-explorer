@@ -1,7 +1,7 @@
-import type { NextConfig } from "next";
+const nextConfig = {
+  experimental: {
+    // allowedDevOrigins: ["http://192.168.100.24:3000"],
+  },
+}
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-export default nextConfig;
+export default nextConfig
